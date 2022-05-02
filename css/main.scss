@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('img/Rectangle1.png');
+    background-size: cover;
+    height: 100vh;
+    z-index: -1
+}
